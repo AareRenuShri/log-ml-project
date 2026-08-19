@@ -1,0 +1,41 @@
+log_text,label
+"The service rejected the login attempt due to invalid credentials",auth_failure
+"The user's authentication token was not accepted by the server",auth_failure
+"The operation completed successfully without errors",normal
+"The request was processed and returned the expected result",normal
+"The application attempted to access an object that was not initialized",null_pointer
+"Execution failed because a required object reference was missing",null_pointer
+"The server did not respond before the request deadline",timeout
+"The service became unreachable while waiting for the response",timeout
+"The backend stopped responding before the request could complete",timeout
+"The request waited too long for a response from the service",timeout
+"The service was unreachable when the request was sent",timeout
+"No response was received from the server within the expected time",timeout
+"The request remained pending until the operation timed out",timeout
+"The server took too long to respond to the incoming request",timeout
+"The connection remained open but no response arrived",timeout
+"The application stopped waiting after the response deadline was reached",timeout
+"The user could not log in with the provided credentials",auth_failure
+"The login attempt was denied because the credentials were invalid",auth_failure
+"The authentication token was rejected by the service",auth_failure
+"The system refused access because authentication failed",auth_failure
+"The user's login credentials could not be verified",auth_failure
+"The authentication attempt was unsuccessful",auth_failure
+"Access was denied after the user's identity could not be verified",auth_failure
+""The provided password was rejected during login",auth_failure
+The request completed successfully without any errors",normal
+"The operation finished successfully and returned the expected result",normal
+"The server processed the request successfully",normal
+"The user's request was completed as expected",normal
+"The application handled the request without encountering any problems",normal
+"The transaction completed successfully",normal
+"The service responded successfully to the request",normal
+"Processing finished normally with no errors reported",normal
+"The application tried to access an object that was null",null_pointer
+"Execution failed because the required object was not available",null_pointer
+"The program encountered a null value while processing the request",null_pointer
+"A referenced object was missing during execution",null_pointer
+"The handler attempted to use an object that did not exist",null_pointer
+"Processing failed because a required reference was null",null_pointer
+"The application could not continue because expected data was missing",null_pointer
+"A null object caused the operation to fail during processing",null_pointer

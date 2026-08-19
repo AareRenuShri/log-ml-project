@@ -1,0 +1,33 @@
+log_text,label
+"The backend stopped responding before the request could complete",timeout
+"Server response did not arrive within the expected window",timeout
+"The request waited too long for a response from the service",timeout
+"Connection remained open but no response was received",timeout
+"The operation exceeded the allowed response duration",timeout
+"The service was unreachable when the request was sent",timeout
+"Remote server failed to respond in time",timeout
+"Request was abandoned after waiting for the backend",timeout
+"Authentication was rejected for the supplied credentials",auth_failure
+"Login attempt was denied because the credentials were invalid",auth_failure
+"User could not authenticate with the provided password",auth_failure
+"Access was refused during the login process",auth_failure
+"The authentication token was rejected by the server",auth_failure
+"Login credentials were not accepted",auth_failure
+"Authorization check failed for the user",auth_failure
+"Unable to verify the user's identity",auth_failure
+"The application encountered a null object reference",null_pointer
+"A required object was unexpectedly null during processing",null_pointer
+"The handler attempted to access an unavailable object",null_pointer
+"Processing failed because a referenced object did not exist",null_pointer
+"An object reference was missing while handling the request",null_pointer
+"The application tried to use a null value",null_pointer
+"A null reference caused the request handler to fail",null_pointer
+"Required data was missing from an object during execution",null_pointer
+"The request was completed successfully by the service",normal
+"User operation finished without any errors",normal
+"The server processed the request successfully",normal
+"Request processing completed as expected",normal
+"The operation finished successfully",normal
+"Service completed the requested operation",normal
+"User action was processed without problems",normal
+"The application handled the request successfully",normal

@@ -1,0 +1,7 @@
+venv/
+__pycache__/
+*.pyc
+log_classified.pkl
+tfidf_vectorizer.pkl
+logs_combined.csv
+.DS_Store
